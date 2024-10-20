@@ -1,0 +1,71 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.food-container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.food-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.category-title {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #34495e;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+.food-item {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.food-item label {
+    flex: 1;
+    cursor: pointer;
+    color: #2c3e50;
+}
+
+.food-item input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.result {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.result h2 {
+    margin-bottom: 10px;
+    color: #27ae60;
+}
+
+.result p {
+    font-size: 2em;
+    color: #c0392b;
+}
